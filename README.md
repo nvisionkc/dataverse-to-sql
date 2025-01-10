@@ -20,20 +20,11 @@ Options:
   --xml                Path to the customizations.xml file
 ```
 
-### Examples
-- Generate a database with default settings:
-  ```
-  DataverseToSql
-  ```
+### Example
 
-- Specify a custom connection string:
+- Specify a connection string and the path to the `customizations.xml` file:
   ```
-  DataverseToSql --connection "Data Source=myserver;User ID=admin;Password=secret;Database=mydb;"
-  ```
-
-- Specify a custom `customizations.xml` file:
-  ```
-  DataverseToSql --xml "C:\path\to\customizations.xml"
+  DataverseToSql --connection "Data Source=myserver;User ID=admin;Password=secret;Database=mydb;" --xml "C:\path\to\customizations.xml"
   ```
 
 ## Exporting the Solution from Power Apps
@@ -82,7 +73,7 @@ The application outputs the generated SQL `CREATE TABLE` statements to the conso
 
 ## Notes
 - Ensure the SQL Server instance is accessible and the connection string has appropriate permissions.
-- Back up your database before running the utility in production.
+- Back up your database before running the utility or alter to output the SQL statements to file.
 
 ## License
 This project is licensed under the MIT License. See the `LICENSE` file for details.
