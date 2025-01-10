@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "DataverseToSqlSchema": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
