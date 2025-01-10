@@ -1,6 +1,6 @@
 # Dataverse to SQL Database Generator
 
-This utility reads a `customizations.xml` file containing metadata about entities and generates a SQL database schema. It connects to a specified SQL Server instance and creates tables based on the defined entities and fields.
+This utility reads a `customizations.xml` file containing metadata about entities and generates SQL database tables based on the definition. It connects to a specified SQL Server instance and creates tables based on the defined entities and fields.
 
 ## Features
 - Parses `customizations.xml` to extract entity and field metadata.
